@@ -7,8 +7,8 @@ android {
         applicationId "dk.ozgur.ubs"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode 6
-        versionName "1.6"
+        versionCode 7
+        versionName "1.7"
     }
     buildTypes {
         release {
@@ -28,7 +28,4 @@ dependencies {
     compile 'com.squareup.retrofit:converter-gson:2.0.0-beta1'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.bluelinelabs:conductor:2.1.1'
-    compile 'com.google.firebase:firebase-core:10.0.1'
 }
-
-apply plugin: 'com.google.gms.google-services'

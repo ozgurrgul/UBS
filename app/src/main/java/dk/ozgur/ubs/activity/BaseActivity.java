@@ -13,13 +13,9 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class BaseActivity extends AppCompatActivity {
 
-    private FirebaseAnalytics mFirebaseAnalytics;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
 
     public void toast(String str) {
@@ -28,12 +24,6 @@ public class BaseActivity extends AppCompatActivity {
 
     public void toast(int resId) {
         toast(getResources().getString(resId));
-    }
-
-    public void logControllerOpen(String controllerName) {
-        Bundle bundle = new Bundle();
-        bundle.putString("name", controllerName);
-        mFirebaseAnalytics.logEvent("controller_open", bundle);
     }
 
 }

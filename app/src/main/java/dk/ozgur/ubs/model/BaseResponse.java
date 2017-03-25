@@ -8,7 +8,7 @@ public class BaseResponse {
     public String getMessage() {
         return this.message;
     }
-    
+
     public boolean hasError() {
         return !this.status.equals("200");
     }
