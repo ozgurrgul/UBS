@@ -5,7 +5,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.google.firebase.analytics.FirebaseAnalytics;
 
 /**
  * Created by ozgur on 3/24/17.

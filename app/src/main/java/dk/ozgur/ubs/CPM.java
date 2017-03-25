@@ -38,5 +38,4 @@ public class CPM {
         return mPrefs.getInt(key, -1);
     }
 
-
 }
