@@ -9,6 +9,7 @@ public class UserWeeklyScheduleResponse extends BaseResponse {
     private ArrayList<Course> WeeklyCourses;
 
     public class Course {
+
         private String lessonStart;
         private String lessonFinish;
         private String lessonDay;
@@ -16,7 +17,6 @@ public class UserWeeklyScheduleResponse extends BaseResponse {
         private String courseName;
         private String description;
         private String workCenterName;
-
 
         public String getCourseName() {
             return this.courseName;

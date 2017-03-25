@@ -7,6 +7,7 @@ public class UserGradeResponse extends BaseResponse {
     private ArrayList<Course> courseDetails;
 
     public class Course {
+        
         private String LetterGradeString;
         private String courseCode;
         private String courseName;

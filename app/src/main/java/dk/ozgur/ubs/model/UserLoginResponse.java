@@ -15,7 +15,6 @@ public class UserLoginResponse extends BaseResponse {
 
     public class UserLoginResponseUser {
         private UserLoginResponseStudent student;
-
         public UserLoginResponseStudent getStudent() {
             return this.student;
         }
