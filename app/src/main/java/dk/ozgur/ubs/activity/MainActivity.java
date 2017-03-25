@@ -68,10 +68,8 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         bottomMenuHashMap.put(WeeklyScheduleController.class, 0);
         bottomMenuHashMap.put(HomeController.class, 1);
-
         bottomMenuHashMap.put(GradesController.class, 2);
         bottomMenuHashMap.put(GradesHistoryController.class, 2);
 
