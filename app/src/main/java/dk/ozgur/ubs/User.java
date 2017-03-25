@@ -77,7 +77,6 @@ public class User {
         return !TextUtils.isEmpty(getStudentNo());
     }
 
-
     public void logout() {
         setStudentNo(null);
         setPassword(null);
