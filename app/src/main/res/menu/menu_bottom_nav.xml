@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/MenuItemWeeklySchedule"
+        android:icon="@drawable/ic_view_headline_black_24dp"
+        android:title="Dersler" />
+
+    <item
+        android:id="@+id/MenuItemHome"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Anasayfa" />
+
+
+    <item
+        android:id="@+id/MenuItemGrades"
+        android:icon="@drawable/ic_grade_black_24dp"
+        android:title="Notlar" />
+
+</menu>

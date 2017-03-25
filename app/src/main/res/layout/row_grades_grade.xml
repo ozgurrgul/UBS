@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/TextViewGradeCourseName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fizik"
+                android:textSize="@dimen/size_text"
+                android:textColor="@color/color_text"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/TextViewGradeLetterNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AA"
+                android:textSize="@dimen/size_text_sub"
+                android:textColor="@color/color_text_sub"
+                android:layout_marginTop="2dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextViewGradeNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Final: 50\nBütünleme: 40"
+            android:textSize="@dimen/size_text_sub"
+            android:textColor="@color/color_text_sub"
+            android:layout_marginTop="2dp"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

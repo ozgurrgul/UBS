@@ -1,0 +1,6 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="padding_controller">5dp</dimen>
+    <dimen name="size_text">17sp</dimen>
+    <dimen name="size_text_sub">15sp</dimen>
+</resources>

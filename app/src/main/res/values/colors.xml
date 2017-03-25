@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ff9800</color>
+    <color name="colorPrimaryDark">#f57f17</color>
+    <color name="colorAccent">#533a15</color>
+
+    <color name="grade_bad">#ff1744</color>
+    <color name="grade_notr">#ffa000</color>
+    <color name="grade_good">#00c853</color>
+    <color name="grade_muaf">#2979ff</color>
+    <color name="color_text">#424242</color>
+    <color name="color_text_sub">#9e9e9e</color>
+
+</resources>

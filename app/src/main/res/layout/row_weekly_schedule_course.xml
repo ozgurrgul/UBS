@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/TextViewCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textSize="@dimen/size_text"
+            android:textColor="@color/color_text"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/TextViewCourseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="@dimen/size_text_sub"
+            android:textColor="@color/color_text_sub"
+            android:layout_marginTop="2dp"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
